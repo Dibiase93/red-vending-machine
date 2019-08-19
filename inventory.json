@@ -1,0 +1,91 @@
+{
+  "itemInventory": {
+    "A1": {
+      "name": "Coca Cola",
+      "price": 2,
+      "quantity": 10,
+      "maxQuantity": 10
+    },
+    "A2": {
+      "name": "Sprite",
+      "price": 1.75,
+      "quantity": 10,
+      "maxQuantity": 10
+    },
+    "A3": {
+      "name": "Vanilla Coke",
+      "price": 2.5,
+      "quantity": 10,
+      "maxQuantity": 10
+    },
+    "B1": {
+      "name": "Cherry Coke",
+      "price": 2.5,
+      "quantity": 10,
+      "maxQuantity": 10
+    },
+    "B2": {
+      "name": "Redbull",
+      "price": 3.5,
+      "quantity": 10,
+      "maxQuantity": 10
+    },
+    "B3": {
+      "name": "Monster",
+      "price": 4.5,
+      "quantity": 10,
+      "maxQuantity": 10
+    },
+    "C1": {
+      "name": "5 Hour Energy",
+      "price": 3.75,
+      "quantity": 10,
+      "maxQuantity": 10
+    },
+    "C2": {
+      "name": "Siracha",
+      "price": 5,
+      "quantity": 10,
+      "maxQuantity": 10
+    },
+    "C3": {
+      "name": "Franks RedHot",
+      "price": 5,
+      "quantity": 10,
+      "maxQuantity": 10
+    }
+  },
+
+  "coinsInventory": {
+    "5 cents": {
+      "name": "nickel",
+      "value": 0.05,
+      "quantity": 200,
+      "maxQuantity": 200
+    },
+    "10 cents": {
+      "name": "dime",
+      "value": 0.1,
+      "quantity": 20,
+      "maxQuantity": 20
+    },
+    "25 cents": {
+      "name": "quarter",
+      "value": 0.25,
+      "quantity": 40,
+      "maxQuantity": 40
+    },
+    "$1": {
+      "name": "loonie",
+      "value": 1,
+      "quantity": 20,
+      "maxQuantity": 20
+    },
+    "$2": {
+      "name": "toonie",
+      "value": 2,
+      "quantity": 10,
+      "maxQuantity": 10
+    }
+  }
+}
