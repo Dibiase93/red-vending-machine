@@ -18,12 +18,12 @@ describe("VendingMachine", () => {
       });
     });
 
-    // describe("when input productCode is A3 and payment is greater than $2.50", () => {
-    //   it("should return item vanilla coke with with change equal to payment - $2.50", () => {
-    //     expect(vendingMachine.despenseItem("A3", 3)).toEqual(
-    //       "Vanilla Cola" + 0.5
-    //     );
-    //   });
-    // });
+    describe("when input productCode is A3 and payment is greater than $2.50", () => {
+      it("should return item vanilla coke with with change equal to payment - $2.50", () => {
+        expect(vendingMachine.despenseItem("A3", 3)).toEqual(
+          "Vanilla Coke" + " change is: " + 0.5
+        );
+      });
+    });
   });
 });
