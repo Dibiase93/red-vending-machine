@@ -21,7 +21,7 @@
     "B1": {
       "name": "Cherry Coke",
       "price": 2.5,
-      "quantity": 10,
+      "quantity": 1,
       "maxQuantity": 10
     },
     "B2": {
@@ -60,7 +60,7 @@
     "5 cents": {
       "name": "nickel",
       "value": 0.05,
-      "quantity": 200,
+      "quantity": 3,
       "maxQuantity": 200
     },
     "10 cents": {

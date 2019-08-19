@@ -25,5 +25,29 @@ describe("VendingMachine", () => {
         );
       });
     });
+
+    describe("quantity is less than minStockItem", () => {
+      it("should be true", () => {
+        expect(vendingMachine.despenseItem("B1", 2.5)).toBeTruthy();
+      });
+    });
+
+    describe("quantity is less than minStockItem is true", () => {
+      it("should run reStockItem() and equal max quantity 10 ", () => {
+        expect(vendingMachine.reStockItem("B1")).toEqual(10);
+      });
+    });
+
+    // describe("coin quantity is less than minStockCoin", () => {
+    //     it("should be true", () => {
+    //       expect(vendingMachine.despenseItem("B1", 2.5)).toBeTruthy();
+    //     });
+    //   });
+
+    describe("coin quantity is less than minstockCoin is true", () => {
+      it("should run reStockCoin() and equal max quantity 200 ", () => {
+        expect(vendingMachine.reStockCoin("5 cents")).toEqual(200);
+      });
+    });
   });
 });
